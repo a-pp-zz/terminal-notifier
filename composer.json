@@ -1,0 +1,24 @@
+{
+    "name": "appzz/terminal-notifier",
+    "description": "terminal-notifier php wrapper",
+    "type": "library",
+    "keywords": [
+        "terminal-notifier"
+    ],
+    "homepage": "https://github.com/a-pp-zz/terminal-notifier/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CoolSwitcher",
+            "email": "ds@appzz.pw",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "appzz/arr": "1.*"
+    },
+    "autoload": {
+        "psr-4": {"AppZz\\CLI\\": "src/"}
+    }
+}
